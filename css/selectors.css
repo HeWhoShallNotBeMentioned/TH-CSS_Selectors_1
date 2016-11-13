@@ -55,3 +55,24 @@ a[target="_blank"] {
 .error {
   background-color: #ff784f;
 }
+@media (min-width: 760px) {
+  .inln {
+    width: auto;
+    display: inline-block;;
+  }
+  .btn + .btn {
+    margin-left: 20px;
+  }
+}
+
+/* Combinators ------------- */
+
+form > a {
+  font-size: .7em;
+}
+
+h1 ~ label {
+  background: navy;
+  color: white;
+  padding: 5px;
+}
